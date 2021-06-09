@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Anasayfa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <!-- Navbar--><nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="bootstrap5.svg" width="40" height="30"/> Bootstrap 5!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-home"></i> Anasayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-cogs"></i> Özellikler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-tags"></i> Fiyatlandırma</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> Hakkımızda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-phone-alt"></i> Bize Ulaşın</a>
+          </li>
+            
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Sayfada Ara" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Ara</button>
+          </form>
+        </ul>
+        <a href="#"><button class="btn btn-outline-success"><i class="fa fa-user-plus"></i> Üye Ol</button></a>
+          &nbsp;
+        <a href="#"><button class="btn btn-outline-primary"><i class="fa fa-user"></i> Giriş Yap</button></a>
+      </div>
+    </div>
+  </nav>
+    <!-- Alert--><div class="container">
+        <div class="alert alert-primary alert-dismissible fade show mt-3" role="alert">
+            <strong>Hoşgeldiniz!</strong> <i class="fab fa-bootstrap"></i> Bootstrap 5 ile yaptığımız temalardan sadece birindesiniz.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div>
+    <!--Carousel--><div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="1.png" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="2.png" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="3.jpg" class="d-block w-100" alt="">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    
+    
+    <div class="container" style="margin-top: 30px;">
+        <!-- Murat Şimşek Description--><div class="col-md-12 row">
+            <div class="col-md-3">
+                <div class="col-lg-3" style="margin-top: 50px;">
+                    <img src="murat.jpg" widht="140" height="140">
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="bd-callout bd-callout-success" style="border-left-color: darkseagreen;">
+<h4 id="resolvable-id-targets-required">Murat Şimşek</h4>
+<p>Yazılım geliştirme işine lisede sevdiğim bölümü kazanarak başladım ve hedeflerimi gerçekleştirmek için emin adımlarla ilerliyorum. Hedefim Web + Mobil Developer (C# & Java) olmak. Bunun yanında ek projeler ve kitap yazma gibi işlerle uğraşmayı planlıyorum. Sürekli olarak kendimi yazılım geliştirmede ve İngilizce'de geliştiriyorum. Şuan C#'da gelişimimi sürdürmekteyim. Desktop uygulamalarından sonra Web Development kısmında eksiklerimi tamamlıyorum.
+</p></div>
+            </div>
+        </div>
+        
+        <!-- Mehmet Arıcı Description--><div class="col-md-12 row">
+            <div class="col-md-3">
+                <div class="col-lg-3" style="margin-top: 50px;">
+                    <img src="mehmet.jpg" widht="140" height="140">
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="bd-callout bd-callout-info">
+<h4 id="non-visible-target-elements-ignored">Mehmet Arıcı</h4>
+<p>Konya/karatay Kılıçarslan IMKB mesleki ve teknik anadolu lisesi Bilgisayar bölümü Web Tasarımı dalından mezun olduktan sonra Cumhuriyet Üniversitesinde iki örgün eğitimi birlikte götürmekteyim. Başarılı olduğumu düşündüğüm alanlar C#, Html, Sql,  Kameramanlık, Yönetmelik, Kurgu/Montaj ve Senaristlik. Kendimi halen geliştirmekte olduğum alanlar ise Python, Css, Js, Visual basic, EntityFramework ve grafikerlik. Yeniliğe ve gelişime açık sürekli öğrenmeyi ve öğretmeyi seven biriyim..
+</p></div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Pagination--><nav aria-label="Page navigation example row" style="margin-left: -25px;">
+  <ul class="pagination justify-content-end">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Önceki</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Sonraki</a>
+    </li>
+  </ul>
+</nav>
+        </div>
+        
+    </div>
+        
+
+    <!-- Footer --><div class="container" style="margin-top: 150px;">
+        <div class="col-md-12 row mb-5">
+            <div class="col-md-4" >
+        	<div>
+            	<b style="color: #555;"><h4><i class="fab fa-bootstrap"></i> Bootstrap</h4></b>
+            </div>
+           
+            	<i style="color:#888; text-decoration: none" href="#">
+                    Designed and built with all the love in the world by the <a href="#">Bootstrap team</a> with the help of <a>our contributors.</a>
+                </i><br/>
+               <i style="color:#888; text-decoration: none" href="#">Code licensed <a>MIT</a>, docs <a>CC BY 3.0.</a></i><br/>
+                <i style="color:#888; text-decoration: none" href="#">Currently v5.0.1.</i>
+           
+            </div>
+            <div class="col-md-2" >
+        	<div>
+            	<b style="color: #555;">Kurumsal</b>
+            </div>
+           
+            	<a style="color:#888; text-decoration: none" href="#">Hakkımızda</a><br/>
+               <a style="color:#888; text-decoration: none" href="#">İnsan Kaynakları</a><br/>
+                <a style="color:#888; text-decoration: none" href="#">Haberler</a><br/>
+                <a style="color:#888; text-decoration: none" href="#">Bize Ulaşın</a>
+           
+            </div>
+        <div class="col-md-2" >
+        	<div>
+            	<b style="color: #555;">Hizmetlerimiz</b>
+            </div>
+           
+            	<a style="color:#888; text-decoration: none" href="#">Örnek Tasarımlar</a><br/>
+               <a style="color:#888; text-decoration: none" href="#">Hazır Şablonlar</a><br/>
+                <a style="color:#888; text-decoration: none" href="#">Satın Al</a><br/>
+                <a style="color:#888; text-decoration: none" href="#">Sipariş Ver</a>
+           
+            </div>
+        <div class="col-md-2">
+        	<div>
+            	<b style="color: #555;">Gizlilk ve Kullanım</b>
+            </div>
+          
+            <a style="color:#888; text-decoration: none" href="#">Bootstrap 5</a><br/>
+                <a style="color:#888; text-decoration: none" href="#">Bootstrap 4</a><br/>
+                <a style="color:#888; text-decoration: none" href="#">Site Haritası</a><br/>
+            <a style="color:#888; text-decoration: none" href="#">Kullanım Koşulları</a><br/>
+            <a style="color:#888; text-decoration: none" href="#">Üyelik Sözleşmesi</a><br/>
+            <a style="color:#888; text-decoration: none" href="#">Gizlilik Koşulları</a><br/>
+            <a style="color:#888; text-decoration: none" href="#">Yardım</a>
+            
+        </div>
+        <div class="col-md-2">
+        	<div>
+            	<b style="color: #555;">Bizi Takip Edin</b>
+            </div>
+          
+            <a style="color:#888; text-decoration: none" href="#">Facebook</a><br/>
+                <a style="color:#888; text-decoration: none" href="#">Twitter</a><br/>
+                <a style="color:#888; text-decoration: none" href="#">Instagram</a><br/>
+            <a style="color:#888; text-decoration: none" href="#">Youtube</a><br/>
+            <a style="color:#888; text-decoration: none" href="#">LinkedIn</a>
+            
+        </div>
+        </div>
+        <div class="col-md-12 row">
+            <div class="col-md-3">
+              <img src="telefon.png" width="35" height="35" /> <b style="color: #555">7/24 Müşteri Hizmetleri </b> <br> <m style="color: #888;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0*** *** ** **</m>  
+            </div>
+            <div class="col-md-3">
+                <img src="yardim.png" width="35" height="35" /> <b style="color:#555">Yardım Merkezi</b><br>
+                <m style="color: #888">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yardim.site.com</m>
+            </div>
+        </div>
+        <div class="mt-5" style="color: #888; font-size: 14px; border:1px dashed; padding: 7px; border-color: #888;">
+            site.com'da yer alan kullanıcıların oluşturduğu tüm içerik, görüş ve bilgilerin doğruluğu, eksiksiz ve değişmez olduğu, yayınlanması ile ilgili yasal yükümlülükler içeriği oluşturan kullanıcıya aittir. Bu içeriğin, görüş ve bilgilerin yanlışlık, eksiklik veya yasalarla düzenlenmiş kurallara aykırılığından site.com hiçbir şekilde sorumlu değildir. Sorularınız için ilan sahibi ile irtibata geçebilirsiniz.
+        </div>
+        <div style="color: #555;">
+            <div class="text-center">Copyright &copy; 2021 site.com </div>
+            
+            </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="holder.min.js" type="text/javascript"></script>
+    <script src="site.js" type="text/javascript"></script>
+</body>
+</html>
